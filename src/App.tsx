@@ -1,7 +1,7 @@
-import {useState} from 'react';
 import './App.css';
 import Article from './Components/Article'
 import ComponentWithChildren from './Components/ComponentWithChildren';
+import Counter from './Components/Counter'
 import ListOfStrings, {User} from './Components/ListOfStrings'
 
 const myListFromApi: Array<User> = [
@@ -30,6 +30,11 @@ function App() {
       >
         <p>I am wrapped by "ComponentWithChildren"</p>
       </ComponentWithChildren>
+      <hr />
+
+      <Counter />
+      <Counter initialCount={10} step={10} />
+
     </div>
   );
 }
