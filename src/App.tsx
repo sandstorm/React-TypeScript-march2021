@@ -3,6 +3,7 @@ import Article from './Components/Article'
 import ComponentWithChildren from './Components/ComponentWithChildren';
 import Counter from './Components/Counter'
 import ListOfStrings, {User} from './Components/ListOfStrings'
+import TodoList from './Components/TodoList';
 
 const myListFromApi: Array<User> = [
   {
@@ -34,6 +35,8 @@ function App() {
 
       <Counter />
       <Counter initialCount={10} step={10} />
+
+      <TodoList />
 
     </div>
   );
