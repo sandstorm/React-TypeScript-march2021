@@ -22,3 +22,12 @@
 2. Nutze diesen custom Hook in deiner bestehenden Counter-Komponente (Schrittgröße = 1)
 3. Kopieren deine Counter-Komponente und sorge dafür, dass dieser in Zehner-Schritten hoch- und runterzählt
 4. Nimm nun eine der Counter-Komponenten und gib die Schrittgröße jetzt als prop hinein anstatt sie hard-zu-coden
+
+## 5. TodoList: useEffect() & API calls
+1. Erstelle eine TodoList Komponente
+2. Nutze useEffect() um einen API call zu https://jsonplaceholder.typicode.com/todos macht (fetch-API nutzen), beim ersten Rendern
+3. Nutzt useState() um die Todos in der Komponente zu speichern
+
+## 6. Controlled Inputs
+1. Erstelle ein controlled Input mit dessen eingegebenem Wert die List von Todos gefiltert wird (nach title)
+2. Erstelle eine Checkbox, welche alle Todos filtert, welche completed sind, wenn sie angehakt ist
